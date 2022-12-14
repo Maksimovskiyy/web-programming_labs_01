@@ -25,11 +25,7 @@ body {
     left: 0;
     right: 0;
 }
-.header .language {
-    position: absolute;
-    right: 30px;
-    top: 0px;
-}
+
 .content {
     color: #888;
     font-size: 15px;
@@ -38,4 +34,14 @@ body {
     line-height: 30px;
     padding-right: 20px;
     margin-left: 20px;
+}
+
+#time {
+    color: white;
+    text-align: right;
+    position: absolute;
+    font-size: bold;
+    top: 0;
+    right: 0;
+
 }
