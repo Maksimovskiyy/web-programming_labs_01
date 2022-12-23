@@ -4,3 +4,9 @@ function clickMe(buttont) {
     else
         buttont.innerHTML = 'Щелчок';
 }
+function clickName(buttont) {
+    if(buttont.innerHTML == 'Максим')
+        buttont.innerHTML = 'Овчинников';
+    else
+        buttont.innerHTML = 'Максим';
+}
